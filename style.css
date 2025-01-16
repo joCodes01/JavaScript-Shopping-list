@@ -1,0 +1,48 @@
+
+
+html {
+    background-color: rgb(214, 231, 236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-center {
+    background-color: white;
+    padding: 3rem;
+    max-width: fit-content;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shopping{
+background-color: rgb(214, 231, 236);
+border: none;
+}
+
+.submit-btn {
+    background-color: rgb(71, 150, 174);
+    border: none;
+    border-radius: 3px;
+}
+
+.shopping-item{
+    display: flex;
+    align-items:baseline
+}
+
+.title {
+    margin-right: auto;
+}
+
+.clear-btn {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Visibility hidden */
+.shopping-container{
+    display: flex;
+    flex-direction: column;;
+    visibility: hidden; 
+}
